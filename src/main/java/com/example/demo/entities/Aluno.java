@@ -21,4 +21,7 @@ public class Aluno {
     @OneToMany(mappedBy = "aluno")
     private List<Contato> contatos;
 
+    @OneToMany(mappedBy = "aluno")
+    private List<Responsavel> responsaveis;
+
 }
